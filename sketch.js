@@ -101,12 +101,12 @@
 
   //for moving up when the the up arrow key is preesed
    if(keyDown("UP_ARROW")&& girl.y >= 100) {
-    girl.velocityY = -4;
+    girl.velocityY = 0;
    }
 
    //for moving down when the the down arrow key is preesed
    if(keyDown("DOWN_ARROW")&& girl.y >= 100) {
-     girl.velocityY = 4;
+     girl.velocityY = 0;
    }
    
    //spawn the healthy food
